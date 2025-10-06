@@ -1,0 +1,60 @@
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    background: var(--primary);
+    color: white;
+    height: 100vh;
+    padding-top: 1rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 0.8rem 1.2rem;
+    cursor: pointer;
+  }
+  
+  .sidebar li:hover {
+    background: var(--hover);
+  }
+  
+  /* Top Navigation */
+  .topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-left: 220px;
+    background: var(--secondary);
+    color: white;
+  }
+  
+  /* Main Content */
+  .main-content {
+    margin-left: 220px;
+    padding: 1rem;
+    background: var(--background);
+    min-height: 100vh;
+    color: var(--text);
+  }
+  
+  .stats {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .card {
+    flex: 1;
+    padding: 1rem;
+    background: var(--accent);
+    color: white;
+    border-radius: 8px;
+  }
+  
